@@ -1,0 +1,142 @@
+.side-navbar-user-details-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(119, 129, 146)!important;
+}
+
+.collapsible-sidebar-close-btn-container,
+.collapsible-sidebar-open-btn-container{
+    width: calc(100% - 4px);
+    display: flex;
+    padding: 13px 2px!important;
+    place-content: flex-end;
+}
+
+.collapsible-sidebar-close-btn-container:hover {
+	-webkit-animation: slide-left 0.5s ease-in-out 0ms 1 both;
+	animation: slide-left 0.5s ease-in-out 0ms 1 both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.side-bar-user-setting-icon{
+    position: relative;
+    top:9px
+}
+.side-bar-user-setting-icon:hover > path{
+    fill: rgb(177, 177, 177);
+}
+
+.sub-list-padding{
+    padding-left: 2rem !important;
+}
+
+.sub-list-background{
+    background-color:white!important;
+}
+
+.display-none{
+    display: none!important;
+}
+
+.sidebar-tab-icon-color{
+    color: rgb(0, 0, 0)!important;
+}
+
+.side-drawer-open .MuiListItemIcon-root{
+    min-width: 24px!important;
+    padding-right: 20px!important;
+}
+
+.side-drawer-closed{
+    min-width: 64px!important;
+    max-width: 64px!important;
+    background-color:white!important;
+    color: rgb(0, 0, 0)!important;
+    overflow-x: hidden;
+    cursor: pointer !important;
+}
+
+.side-drawer-open{
+    width: 280px;
+    background-color:white!important;
+    color: rgb(0, 0, 0)!important;
+    overflow-x: hidden;
+    cursor: pointer !important;
+    animation: open 0.25s ease-in-out 0s 1;
+}
+
+@keyframes open{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.side-drawer-closed-icon-padding{
+    color: rgb(0, 0, 0)!important;
+    padding: 0.5rem 0 0.5rem 0.2rem;
+}
+
+.side-drawer-closed-twin-content{
+    width: calc(100% - 64px)!important;
+    min-height: 100vh;
+    margin-left: 64px!important;
+    padding: 0!important;
+    overflow-x: hidden;
+    background-color: #E5E5E5!important;
+}
+
+.side-drawer-open-twin-content{
+    width: calc(100% - 280px);
+    min-height: 100vh;
+    margin-left: 280px;
+    padding: 0!important;
+    background-color: #E5E5E5!important;
+    min-height: 100vh;
+    overflow-x: hidden;
+    animation: openTwin 0.125s linear 0s 1;
+}
+
+@keyframes openTwin{
+    0%{
+        margin-left: 64px;
+        width: calc(100% - 64px);
+    }
+    100%{
+        margin-left: 304px;
+        width: calc(100% - 304px);
+    }
+}
+
+.sidenav-option-list{
+    margin-top: 12px;
+}
+
+.sidenav-text-color{
+    color: rgb(0, 0, 0)!important;
+    letter-spacing: 0.25px!important;
+    font-weight: 600!important;
+}

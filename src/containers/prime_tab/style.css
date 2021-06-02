@@ -1,0 +1,21 @@
+.sub-list-padding{
+    padding-left: 2rem !important;
+}
+
+.sub-list-background{
+    background-color:white!important;
+}
+
+.display-none{
+    display: none!important;
+}
+
+.sidebar-tab-icon-color{
+    color: rgb(0, 0, 0)!important;
+}
+
+.sidenav-text-color{
+    color: rgb(0, 0, 0)!important;
+    letter-spacing: 0.25px!important;
+    font-weight: 600!important;
+}

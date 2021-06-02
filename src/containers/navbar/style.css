@@ -1,0 +1,16 @@
+.Navbar-body{
+    height: 50px;
+    display: flex;
+    column-gap:12px;
+    background-color: white;
+    margin:0 2px 4px;
+    width: calc(100% - 4px);
+    border-radius: 2px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-user-profile{
+    position: relative;
+    padding: 4px;
+}

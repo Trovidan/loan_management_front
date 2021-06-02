@@ -1,0 +1,27 @@
+.display-none{
+    display: none!important;
+}
+
+.sidebar-tab-icon-color{
+    color: rgb(0, 0, 0)!important;
+}
+
+.selected-tab{
+    background-color: rgb(50, 50, 50)!important;
+    border-top-right-radius: 2rem !important;
+    color: white!important;
+    letter-spacing: 2px!important;
+    border-bottom-right-radius: 2rem !important;
+}
+
+.selected-tab > div > svg,
+.selected-tab > div > span{
+    color: white!important;
+    font-weight: 600;
+}
+
+.sidenav-text-color{
+    color: rgb(0, 0, 0)!important;
+    letter-spacing: 0.25px!important;
+    font-weight: 600!important;
+}
